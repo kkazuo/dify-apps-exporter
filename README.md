@@ -14,7 +14,13 @@ DIFY_PASSWORD={dify console password}
 
 ### 実行バイナリの準備
 
-利用環境のアーキテクチャにあったバイナリをダウンロードしてください。
+利用環境のアーキテクチャにあったバイナリを[リリースページ](https://github.com/kkazuo/dify-apps-exporter/releases)からダウンロードしてください。
+
+またはソースコードをダウンロードして
+
+    go run .
+
+でも実行できます。
 
 ## 実行
 
