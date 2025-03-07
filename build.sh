@@ -3,7 +3,7 @@
 APP=dify-apps-exporter
 
 mk() {
-    go build -o $APP-$GOOS-$GOARCH .
+    go build -trimpath -o $APP-$GOOS-$GOARCH .
 }
 
 GOOS=linux GOARCH=amd64 mk
